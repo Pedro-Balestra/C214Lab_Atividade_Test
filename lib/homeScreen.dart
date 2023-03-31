@@ -49,6 +49,7 @@ class _HomeState extends State<Home> {
           Container(
             padding: const EdgeInsets.all(20),
             child: TextFormField(
+              key: const Key("Soma"),
               decoration: InputDecoration(
                 enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(color: Colors.black),
@@ -76,6 +77,7 @@ class _HomeState extends State<Home> {
           Container(
             padding: const EdgeInsets.all(20),
             child: TextFormField(
+              key: const Key("Multiplicação"),
               decoration: InputDecoration(
                 enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(color: Colors.black),
@@ -101,6 +103,7 @@ class _HomeState extends State<Home> {
             ),
           ),
           Container(
+            key: const Key("Subtração"),
             padding: const EdgeInsets.all(20),
             child: TextFormField(
               decoration: InputDecoration(
@@ -130,6 +133,7 @@ class _HomeState extends State<Home> {
           Container(
             padding: const EdgeInsets.all(20),
             child: TextFormField(
+              key: const Key("Divisão"),
               decoration: InputDecoration(
                 enabledBorder: OutlineInputBorder(
                     borderSide: const BorderSide(color: Colors.black),
