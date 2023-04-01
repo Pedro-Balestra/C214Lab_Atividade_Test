@@ -12,3 +12,7 @@ Nesta Aplicação criei 5 testes, onde verifico a existencia dos Widgets, como:
 * Multiplicação
 * Divisão
 
+<p align="center">
+  <img width="470" src="src/assets/Atividade 5.png"
+</p>
+
